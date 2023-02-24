@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+  text-align: center;
+  background-color: black;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: cornsilk;
+  font-style: italic;
+  background: url("https://images.unsplash.com/photo-1567459169668-95d355371bda");
+}
+
+#- Richard Feyman {
+  color: blueviolet;
+  text-align: end;
+}
