@@ -1,11 +1,47 @@
-img {
+#rosa {
+  text-align: center;
+  color: red
+}
+
+#pdr {
+  text-align: center;
+  color:red
+}
+
+#pitu {
+  color: green;
+  text-align: left
+;
+}
+
+#pdp {
+  text-align:left;
+  color:green
+}
+
+#pa {
+  text-align: right;
+  color:blue
+}
+
+#pda {
+  text-align: right;
+  color:blue
+}
+
+#pas {
+  margin-left:300px;
+  margin-right: auto;
+}
+
+#ala {
+  margin-left:0px;
+  margin-right: auto;
+}
+
+#img1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   filter: grayscale(100%), drop-shadow(5px 5px red);
-}
 
-.box {
-  padding: 10px;
-  background-color: red;
-}
