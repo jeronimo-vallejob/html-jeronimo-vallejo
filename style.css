@@ -1,47 +1,42 @@
-#rosa {
+h1 {
   text-align: center;
-  color: red
+  color: blueviolet;
 }
 
-#pdr {
-  text-align: center;
-  color:red
+#p1 {
+  color: burlywood;
+  text-transform: uppercase;
 }
-
-#pitu {
-  color: green;
-  text-align: left
-;
+#p2 {
+  color: rgba(109, 94, 62, 0.61);
+  text-transform: lowercase;
 }
-
-#pdp {
-  text-align:left;
-  color:green
+#p3 {
+  color: hotpink;
+  text-transform: capitalize;
 }
-
-#pa {
-  text-align: right;
-  color:blue
+#p4 {
+  color: lightcoral;
+  text-decoration: overline;
 }
-
-#pda {
-  text-align: right;
-  color:blue
+#p5 {
+  color: indianred;
+  text-decoration: line-through;
 }
-
-#pas {
-  margin-left:300px;
-  margin-right: auto;
+#p6 {
+  color: orchid;
+  text-decoration: underline;
 }
-
-#ala {
-  margin-left:0px;
-  margin-right: auto;
+#p7 {
+  color: rgb(136, 231, 211);
+  text-indent: 50px;
 }
-
-#img1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  filter: grayscale(100%), drop-shadow(5px 5px red);
-
+#p8 {
+  color: rgb(150, 26, 26);
+}
+#p9 {
+  color: rgb(143, 30, 133);
+}
+#p10 {
+  color: rgb(28, 37, 161);
+}
