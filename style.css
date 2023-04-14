@@ -1,42 +1,111 @@
-h1 {
-  text-align: center;
-  color: blueviolet;
+html {
+  font-family: "Montserrat", sans-serif;
 }
 
-#p1 {
-  color: burlywood;
-  text-transform: uppercase;
+body {
+  margin: 0;
+  background-color: #ffffff;
 }
-#p2 {
-  color: rgba(109, 94, 62, 0.61);
-  text-transform: lowercase;
+
+header h1 {
+  background-color: #412e47cc;
+  color: white;
+  padding: 3rem 2rem;
+  font-size: 3rem;
+  text-align: left;
+  border-radius: 2.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-#p3 {
-  color: hotpink;
-  text-transform: capitalize;
+
+h2 {
+  font-size: 2.5rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#p4 {
-  color: lightcoral;
-  text-decoration: overline;
+
+h3 {
+  background-color: #372d61cc;
+  color: white;
+  padding: 3rem 2rem;
+  font-size: 2rem;
+  font-size: 1rem;
+  width: 70%;
+  border-radius: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-#p5 {
-  color: indianred;
-  text-decoration: line-through;
+
+p {
+  font-family: serif;
 }
-#p6 {
-  color: orchid;
-  text-decoration: underline;
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
 }
-#p7 {
-  color: rgb(136, 231, 211);
-  text-indent: 50px;
+
+h4 {
+  font-size: 1.5rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#p8 {
-  color: rgb(150, 26, 26);
+
+h5 {
+  font-size: 1rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#p9 {
-  color: rgb(143, 30, 133);
+
+body p {
+  transition: all 0.3s ease;
+  background-color: #fff;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#p10 {
-  color: rgb(28, 37, 161);
+
+body p:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #222;
+  padding: 3rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

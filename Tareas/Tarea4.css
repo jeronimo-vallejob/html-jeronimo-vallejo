@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+#p1 {
+  color: burlywood;
+  text-transform: uppercase;
+}
+#p2 {
+  color: rgba(109, 94, 62, 0.61);
+  text-transform: lowercase;
+}
+#p3 {
+  color: hotpink;
+  text-transform: capitalize;
+}
+#p4 {
+  color: lightcoral;
+  text-decoration: overline;
+}
+#p5 {
+  color: indianred;
+  text-decoration: line-through;
+}
+#p6 {
+  color: orchid;
+  text-decoration: underline;
+}
+#p7 {
+  color: rgb(136, 231, 211);
+  text-indent: 50px;
+}
+#p8 {
+  color: rgb(150, 26, 26);
+}
+#p9 {
+  color: rgb(143, 30, 133);
+}
+#p10 {
+  color: rgb(28, 37, 161);
+}
