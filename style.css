@@ -5,6 +5,20 @@
 h1 {
   text-align: center;
 }
+
+#uno {
+  color: green;
+}
+
+#dos {
+  color: yellowgreen;
+}
+
+#tres {
+  background-color: black;
+  color: white;
+}
+
 img {
   align-items: center;
 }
